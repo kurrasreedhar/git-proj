@@ -1,13 +1,180 @@
-body {
+
+ body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+   padding: 0;
+   box-sizing: border-box;
+}
+.Header{
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.list ul{
+  list-style-type: none;
+  display: flex;
+  
+}
+.list > ul >li{
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+.Rescard{
+  width: 250px; 
+  border-radius: 8px;
+ margin: 10px;
+  background-color: #fff;
+
+}
+.Rescard:hover{
+  cursor: pointer;
+  border: 3px solid black;
+}
+.Se input{
+ 
+  outline: none;
+  padding: 10px;              
+  margin: 20px;
+}
+.tbtn{
+  padding:  5px 30px;
+  margin: 10px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Rescard img{ 
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+.Res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurant-info {
+  padding: 15px;
+}
+.restaurant-cuisine {
+margin: 5px 0;
+ white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%; 
+}
+.rating-value {
+ color: #f39c12; 
+  margin-right: 5px;
+}
+.delivery-time, .area-name {
+  margin: 5px 0;
+}
+.Scards{ 
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+ background-color:darkslategrey;
+
+}
+.Shimcards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.butt{
+  margin-left: 20px;
+}
+.Linkk{
+  text-decoration: none;
+  outline: none;
+  color: inherit;       
+  background: none;
+
+}
+.check-green {
+  color: green;
+  font-size: 24px;
+}
+
+.check-red {
+  color: red;
+  font-size: 24px; 
+}
+.cat{
+  text-align: center;
+}
+.name{
+  font-weight: bolder;
+  margin: 5px 0px ;
+  font-size:xx-large;
+}
+.cuis{
+   font-weight: bold;
+  font-size: larger;
+}
+.wrapper{
+  text-align: center;
+  width:1200px;
+  margin: 20px auto;
+}
+.accordian{
+  background:white;
+  margin-bottom: 10px;
+  padding: 10px 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  
+ }
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: lighter;
+}
+.image{
+  width:140px;
+  height:120px;
+
+}
+.ulist li{
+list-style: none;
+}
+.iname{
+  text-align: start;
+  font-size: larger;
+  font-weight:bolder;
+}
+.price{
+  text-align: start;
+  font-size: larger;
+  font-weight:bolder;
+}
+.desp{
+  margin-top: 5px;
+  text-align: start;
+  font-size: medium;
+  font-weight:lighter;
+   padding-right: 100px;
+}
+.maindiv{
+  display: flex;
+  justify-content: space-between;
+}
+.addb{
+  outline: none;
+  border:none;
+  padding: 8px 15px;
+  background:bisque;
+  color: green;
+border-radius: 10px;
+}
+.maindiv{
+border-bottom: 0.1px solid grey;
+}
+.itemcontainer{
+  display: flex;
+  flex-direction: column;
+ margin-top: 5px;
+  margin-bottom: 20px;
 }
